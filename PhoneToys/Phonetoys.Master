@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Phonetoys.master.cs" Inherits="PhoneToys.Phonetoys" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Content/foundation.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin-left:auto; margin-right:auto;">
+    <asp:ContentPlaceHolder ID="topContent" runat="server" />
+    <form id="form1" runat="server">
+    <div class="masterContent">
+        <div class="row">
+            <div class="columns large-6">
+                <asp:Image ID="Image1" CssClass="logo" runat="server" ImageUrl="http://lorempixel.com/150/120/technics/" />
+            </div>
+            <asp:Label runat="server" ID="cartLabel" ForeColor="Black"></asp:Label>
+        </div>
+         <%--style="width: 150px; height: 60px;"--%>
+        <div class="row">
+            <div class="columns">
+                <div class="nav-bar middle">
+                    <ul class="button-group" >
+                        <li class="large-3 medium-3 small-3"><a href="Light" class="button">Tänd Lampa</a></li>
+                        <li class="large-3 medium-3 small-3"><a href="SagoUpload" class="button">Link 2</a></li>
+                        <li class="large-3 medium-3 small-3"><a href="Index" class="button">Link 3</a></li>
+                        <li class="large-3 medium-3 small-3"><a href="Index" class="button">Link 4</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+        
+    </form>
+</body>
+</html>

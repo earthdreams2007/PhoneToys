@@ -1,0 +1,19 @@
+﻿.row-hoger {
+float:right;
+
+
+}
+
+.row-vanster {
+float: left;
+
+
+}
+.row-content {
+margin: 0px auto;
+}
+
+.varukorgMasterPage {
+    position: absolute;
+    left: 500px;
+}

@@ -1,0 +1,55 @@
+﻿body {
+}
+
+
+/*Upload Saga börjar här*/
+.uploadSagaDiv {
+    float:left;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.sagorDivUploadPage {
+    float: right;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.uploadSagaContent {
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 900px;
+}
+
+.descriptionTB {
+    height: 70px;
+    width: 100px;
+}
+
+.uploadSagaRemoveBTN {
+    width: 500px;
+}
+
+.sagoRepeater {
+    width:500px;
+}
+
+/*Upload Saga slutar här*/
+
+/*Register börjar här*/
+.row-hoger {
+float:right;
+
+
+}
+
+.row-vanster {
+float: left;
+
+
+}
+.row-content {
+margin:auto;
+}
+
+/*Register slutar här*/
