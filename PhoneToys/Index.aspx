@@ -4,5 +4,5 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h3>Du har registrerats</h3>
+    <h3>Du har inte registrerats</h3>
 </asp:Content>
